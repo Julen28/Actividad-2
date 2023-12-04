@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/blue1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="9dp"
+        android:foreground="@drawable/bluetooth"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/blue2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/share1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="28dp"
+        android:text="Button"
+        app:layout_constraintBaseline_toBaselineOf="@+id/blue10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/share10" />
+
+    <Button
+        android:id="@+id/blue8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="17dp"
+        android:foreground="@drawable/bluetooth"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/blue9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/share8"
+        app:layout_constraintTop_toBottomOf="@+id/blue7" />
+
+    <Button
+        android:id="@+id/blue10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="185dp"
+        android:foreground="@drawable/bluetooth"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/play10"
+        app:layout_constraintTop_toBottomOf="@+id/blue9" />
+
+    <Button
+        android:id="@+id/blue6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="14dp"
+        android:foreground="@drawable/bluetooth"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/blue7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/share6"
+        app:layout_constraintTop_toBottomOf="@+id/blue5" />
+
+    <Button
+        android:id="@+id/blue7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="11dp"
+        android:foreground="@drawable/bluetooth"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/blue8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/share7"
+        app:layout_constraintTop_toBottomOf="@+id/blue6" />
+
+    <Button
+        android:id="@+id/blue9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="19dp"
+        android:foreground="@drawable/bluetooth"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/blue10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/share9"
+        app:layout_constraintTop_toBottomOf="@+id/blue8" />
+
+    <Button
+        android:id="@+id/blue5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="24dp"
+        android:foreground="@drawable/bluetooth"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/blue6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/share5"
+        app:layout_constraintTop_toBottomOf="@+id/blue4" />
+
+    <Button
+        android:id="@+id/blue3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="18dp"
+        android:foreground="@drawable/bluetooth"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/blue4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/share3"
+        app:layout_constraintTop_toBottomOf="@+id/blue2" />
+
+    <Button
+        android:id="@+id/blue4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="13dp"
+        android:foreground="@drawable/bluetooth"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/blue5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/share4"
+        app:layout_constraintTop_toBottomOf="@+id/blue3" />
+
+    <Button
+        android:id="@+id/blue2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="21dp"
+        android:foreground="@drawable/bluetooth"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/blue3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/share2"
+        app:layout_constraintTop_toBottomOf="@+id/blue1" />
+
+    <Button
+        android:id="@+id/share9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="19dp"
+        android:foreground="@drawable/compartir"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/share10"
+        app:layout_constraintEnd_toStartOf="@+id/blue9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/share8" />
+
+    <Button
+        android:id="@+id/share10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="185dp"
+        android:foreground="@drawable/compartir"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/share9" />
+
+    <Button
+        android:id="@+id/share5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="24dp"
+        android:foreground="@drawable/compartir"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/share6"
+        app:layout_constraintEnd_toStartOf="@+id/blue5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/share4" />
+
+    <Button
+        android:id="@+id/share6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="14dp"
+        android:foreground="@drawable/compartir"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/share7"
+        app:layout_constraintEnd_toStartOf="@+id/blue6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/share5" />
+
+    <Button
+        android:id="@+id/share8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="17dp"
+        android:foreground="@drawable/compartir"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/share9"
+        app:layout_constraintEnd_toStartOf="@+id/blue8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/share7" />
+
+    <Button
+        android:id="@+id/share7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="11dp"
+        android:foreground="@drawable/compartir"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/share8"
+        app:layout_constraintEnd_toStartOf="@+id/blue7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/share6" />
+
+    <Button
+        android:id="@+id/share3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="18dp"
+        android:foreground="@drawable/compartir"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/share4"
+        app:layout_constraintEnd_toStartOf="@+id/blue3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/share2" />
+
+    <Button
+        android:id="@+id/share4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="13dp"
+        android:foreground="@drawable/compartir"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/share5"
+        app:layout_constraintEnd_toStartOf="@+id/blue4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/share3" />
+
+    <Button
+        android:id="@+id/share2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="21dp"
+        android:foreground="@drawable/compartir"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/share3"
+        app:layout_constraintEnd_toStartOf="@+id/blue2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/share1" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="13dp"
+        android:foreground="@drawable/play"
+        android:onClick="Audio1"
+        app:layout_constraintBottom_toTopOf="@+id/play2"
+        app:layout_constraintEnd_toStartOf="@+id/texto1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/descargar10"
+        android:layout_width="55dp"
+        android:layout_height="32dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="185dp"
+        android:foreground="@android:drawable/stat_sys_download"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/texto10"
+        app:layout_constraintTop_toBottomOf="@+id/texto9" />
+
+    <TextView
+        android:id="@+id/texto10"
+        android:layout_width="77dp"
+        android:layout_height="19dp"
+        android:layout_marginEnd="8dp"
+        android:text="Ringtone 10"
+        app:layout_constraintBaseline_toBaselineOf="@+id/descargar10"
+        app:layout_constraintEnd_toStartOf="@+id/descargar10"
+        app:layout_constraintStart_toEndOf="@+id/play10" />
+
+    <Button
+        android:id="@+id/play9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="13dp"
+        android:foreground="@drawable/play"
+        android:onClick="Audio9"
+        app:layout_constraintBottom_toTopOf="@+id/play10"
+        app:layout_constraintEnd_toStartOf="@+id/texto9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play8" />
+
+    <Button
+        android:id="@+id/descargar9"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="158dp"
+        android:foreground="@android:drawable/stat_sys_download"
+        app:layout_constraintBottom_toTopOf="@+id/texto9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/texto9"
+        app:layout_constraintTop_toTopOf="@+id/texto9" />
+
+    <TextView
+        android:id="@+id/texto9"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="19dp"
+        android:text="Ringtone 9"
+        app:layout_constraintBottom_toTopOf="@+id/descargar10"
+        app:layout_constraintEnd_toStartOf="@+id/descargar9"
+        app:layout_constraintStart_toEndOf="@+id/play9"
+        app:layout_constraintTop_toBottomOf="@+id/texto8" />
+
+    <Button
+        android:id="@+id/play10"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="243dp"
+        android:layout_marginBottom="184dp"
+        android:foreground="@drawable/play"
+        android:onClick="Audio10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/blue10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play9" />
+
+    <Button
+        android:id="@+id/descargar8"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="158dp"
+        android:foreground="@android:drawable/stat_sys_download"
+        app:layout_constraintBottom_toTopOf="@+id/texto8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/texto8"
+        app:layout_constraintTop_toTopOf="@+id/texto8" />
+
+    <TextView
+        android:id="@+id/texto8"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="30dp"
+        android:text="Ringtone 8"
+        app:layout_constraintBottom_toTopOf="@+id/texto9"
+        app:layout_constraintEnd_toStartOf="@+id/descargar8"
+        app:layout_constraintStart_toEndOf="@+id/play8"
+        app:layout_constraintTop_toBottomOf="@+id/texto7" />
+
+    <Button
+        android:id="@+id/play5"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="13dp"
+        android:foreground="@drawable/play"
+        android:onClick="Audio5"
+        app:layout_constraintBottom_toTopOf="@+id/play6"
+        app:layout_constraintEnd_toStartOf="@+id/texto5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play4" />
+
+    <Button
+        android:id="@+id/descargar6"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="185dp"
+        android:foreground="@android:drawable/stat_sys_download"
+        app:layout_constraintBottom_toBottomOf="@+id/descargar10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/texto6"
+        app:layout_constraintTop_toBottomOf="@+id/descargar2" />
+
+    <Button
+        android:id="@+id/play8"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="14dp"
+        android:foreground="@drawable/play"
+        android:onClick="Audio8"
+        app:layout_constraintBottom_toTopOf="@+id/play9"
+        app:layout_constraintEnd_toStartOf="@+id/texto8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play7" />
+
+    <Button
+        android:id="@+id/descargar5"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="164dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="164dp"
+        android:foreground="@android:drawable/stat_sys_download"
+        app:layout_constraintBottom_toTopOf="@+id/play9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/texto5"
+        app:layout_constraintTop_toBottomOf="@+id/texto1" />
+
+    <Button
+        android:id="@+id/play7"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="13dp"
+        android:foreground="@drawable/play"
+        android:onClick="Audio7"
+        app:layout_constraintBottom_toTopOf="@+id/play8"
+        app:layout_constraintEnd_toStartOf="@+id/texto7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play6" />
+
+    <Button
+        android:id="@+id/descargar7"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="99dp"
+        android:foreground="@android:drawable/stat_sys_download"
+        app:layout_constraintBottom_toBottomOf="@+id/texto9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/texto7"
+        app:layout_constraintTop_toTopOf="@+id/texto5" />
+
+    <TextView
+        android:id="@+id/texto5"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="31dp"
+        android:text="Ringtone 5"
+        app:layout_constraintBottom_toTopOf="@+id/texto6"
+        app:layout_constraintEnd_toStartOf="@+id/descargar5"
+        app:layout_constraintStart_toEndOf="@+id/play5"
+        app:layout_constraintTop_toBottomOf="@+id/texto4" />
+
+    <TextView
+        android:id="@+id/texto6"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="29dp"
+        android:text="Ringtone 6"
+        app:layout_constraintBottom_toTopOf="@+id/texto7"
+        app:layout_constraintEnd_toStartOf="@+id/descargar6"
+        app:layout_constraintStart_toEndOf="@+id/play6"
+        app:layout_constraintTop_toBottomOf="@+id/texto5" />
+
+    <TextView
+        android:id="@+id/texto7"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="29dp"
+        android:text="Ringtone 7"
+        app:layout_constraintBottom_toTopOf="@+id/texto8"
+        app:layout_constraintEnd_toStartOf="@+id/descargar7"
+        app:layout_constraintStart_toEndOf="@+id/play7"
+        app:layout_constraintTop_toBottomOf="@+id/texto6" />
+
+    <Button
+        android:id="@+id/play6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="13dp"
+        android:foreground="@drawable/play"
+        android:onClick="Audio6"
+        app:layout_constraintBottom_toTopOf="@+id/play7"
+        app:layout_constraintEnd_toStartOf="@+id/texto6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play5" />
+
+    <Button
+        android:id="@+id/descargar4"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="48dp"
+        android:foreground="@android:drawable/stat_sys_download"
+        app:layout_constraintBottom_toBottomOf="@+id/texto5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/texto4"
+        app:layout_constraintTop_toTopOf="@+id/descargar3" />
+
+    <Button
+        android:id="@+id/play3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="13dp"
+        android:foreground="@drawable/play"
+        android:onClick="Audio3"
+        app:layout_constraintBottom_toTopOf="@+id/play4"
+        app:layout_constraintEnd_toStartOf="@+id/texto3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play2" />
+
+    <TextView
+        android:id="@+id/texto3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="29dp"
+        android:text="Ringtone 3"
+        app:layout_constraintBottom_toTopOf="@+id/texto4"
+        app:layout_constraintEnd_toStartOf="@+id/descargar3"
+        app:layout_constraintStart_toEndOf="@+id/play3"
+        app:layout_constraintTop_toBottomOf="@+id/texto2" />
+
+    <Button
+        android:id="@+id/play4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="21dp"
+        android:foreground="@drawable/play"
+        android:onClick="Audio4"
+        app:layout_constraintBottom_toTopOf="@+id/play5"
+        app:layout_constraintEnd_toStartOf="@+id/texto4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/play3" />
+
+    <TextView
+        android:id="@+id/texto4"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="27dp"
+        android:text="Ringtone 4"
+        app:layout_constraintBottom_toTopOf="@+id/texto5"
+        app:layout_constraintEnd_toStartOf="@+id/descargar4"
+        app:layout_constraintStart_toEndOf="@+id/play4"
+        app:layout_constraintTop_toBottomOf="@+id/texto3" />
+
+    <Button
+        android:id="@+id/descargar3"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="69dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="69dp"
+        android:foreground="@android:drawable/stat_sys_download"
+        app:layout_constraintBottom_toTopOf="@+id/descargar5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/texto3"
+        app:layout_constraintTop_toBottomOf="@+id/texto1" />
+
+    <Button
+        android:id="@+id/descargar1"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="21dp"
+        android:foreground="@android:drawable/stat_sys_download"
+        app:layout_constraintBottom_toTopOf="@+id/texto2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/texto1"
+        app:layout_constraintTop_toBottomOf="@+id/titulo" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="13dp"
+        android:foreground="@drawable/play"
+        android:onClick="Audio1"
+        app:layout_constraintBottom_toTopOf="@+id/play2"
+        app:layout_constraintEnd_toStartOf="@+id/texto1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="26dp"
+        android:autoText="true"
+        android:text="RINGTONES"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toTopOf="@+id/texto1"
+        app:layout_constraintStart_toStartOf="@+id/texto1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/texto1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="22dp"
+        android:text="Ringtone 1"
+        app:layout_constraintBottom_toTopOf="@+id/texto2"
+        app:layout_constraintEnd_toStartOf="@+id/descargar1"
+        app:layout_constraintStart_toEndOf="@+id/button1"
+        app:layout_constraintTop_toBottomOf="@+id/titulo" />
+
+    <Button
+        android:id="@+id/play2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="13dp"
+        android:foreground="@drawable/play"
+        android:onClick="Audio2"
+        app:layout_constraintBottom_toTopOf="@+id/play3"
+        app:layout_constraintEnd_toStartOf="@+id/texto2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
+
+    <TextView
+        android:id="@+id/texto2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="29dp"
+        android:text="Ringtone 2"
+        app:layout_constraintBottom_toTopOf="@+id/texto3"
+        app:layout_constraintEnd_toStartOf="@+id/descargar2"
+        app:layout_constraintStart_toEndOf="@+id/play2"
+        app:layout_constraintTop_toBottomOf="@+id/texto1" />
+
+    <Button
+        android:id="@+id/descargar2"
+        android:layout_width="0dp"
+        android:layout_height="26dp"
+        android:layout_marginEnd="158dp"
+        android:foreground="@android:drawable/stat_sys_download"
+        app:layout_constraintBaseline_toBaselineOf="@+id/texto2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/texto2" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <Button
+        android:id="@+id/share1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="275dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="6dp"
+        android:foreground="@drawable/compartir"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/share2"
+        app:layout_constraintEnd_toStartOf="@+id/blue1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
